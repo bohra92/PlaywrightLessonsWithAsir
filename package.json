@@ -1,0 +1,13 @@
+{
+  "name": "asir_node_demo",
+  "version": "1.0.0",
+  "description": "will create some sample js/ts projects ",
+  "main": "index.js",
+  "scripts": {
+  "test" : "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2"
+  }
+}

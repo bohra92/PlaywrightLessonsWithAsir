@@ -1,0 +1,66 @@
+{
+  "name": "Kirlin, Hoeger and Doyle",
+  "buildingType": "OFFICE",
+  "constructionYear": 1990,
+  "energyIndex": 0.88,
+  "address": {
+    "city": "Naarden",
+    "street": "Rijksweg",
+    "streetNumber": 69,
+    "streetNumberSuffix": "a",
+    "zipCode": "1411GE"
+  },
+  "grossFloorArea": "test",
+  "usableFloorArea": "test",
+  "roofArea": 513,
+  "compactness": 1.17,
+  "glazingArea": 503,
+  "facadeArea": "test",
+  "groundFloorArea": 502,
+  "efficiencyDistrictHeating": 10,
+  "efficiencyDistrictCooling": 8,
+  "currentConfiguration": {
+    "facadeInsulationConfiguration": {
+      "type": "VERY_WELL",
+      "installationYear": 2001
+    },
+    "roofInsulationConfiguration": {
+      "type": "WELL",
+      "installationYear": 2001
+    },
+    "floorInsulationConfiguration": {
+      "type": "WELL",
+      "installationYear": 2001
+    },
+    "windowsConfiguration": {
+      "type": "HRPP",
+      "installationYear": 2001
+    },
+    "heatingConfiguration": {
+      "type": "ATES_BOILER_HEAT_PUMP",
+      "installationYear": 2001
+    },
+    "coolingConfiguration": {
+      "type": "ELECTRICAL_COMPRESSION_COOLING",
+      "installationYear": 2001
+    },
+    "ventilationConfiguration": {
+      "type": "NATURAL",
+      "installationYear": 2001
+    },
+    "lightingConfiguration": {
+      "type": "ECONOMICAL_SWITCHING_LED_RETROFIT",
+      "installationYear": 2001
+    },
+    "pvConfiguration": {
+      "type": "VALUE_30",
+      "installationYear": 2001
+    },
+    "domesticHotWaterConfiguration": {
+      "type": "GAS_BOILER",
+      "installationYear": 2001
+    },
+    "efficiencyDistrictHeating": 9.8,
+    "efficiencyDistrictCooling": 0.4
+  }
+}
