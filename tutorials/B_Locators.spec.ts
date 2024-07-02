@@ -45,8 +45,15 @@ test('radio buttton 1',async({page})=>{
 
 //how to perform radio button tests on https://formstone.it/components/checkbox/demo/
 
+test('radio buttton 2',async({page})=>{
+  await page.goto('https://formstone.it/components/checkbox/demo/')
+  await page.locator("//input[@id='radio-4']").click({force:true})
+  await page.waitForTimeout(2000);
+})
 
-test.only('miscell. butttons',async({page})=>{
+
+
+test('miscell. butttons',async({page})=>{
   await page.goto('https://www.tutorialspoint.com/selenium/practice/buttons.php')
   await page.getByText('Click Me',{exact:true}).click()
   await page.waitForTimeout(2000);
